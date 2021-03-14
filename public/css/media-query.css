@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    nav, .dashboard-item-1, footer, .col-title, .col-date, .col-email, .col-dundies, .row-employees-17, .employees-manage, .filter {
+        display: none;
+    }
+    div.row-employee {
+        border: none;
+    }
+    .header-desktop, .scraton-button, header ul, .left-arrow-button {
+        display: none;
+    }
+    header {
+        border: none;
+    }
+    .short-text {
+        display: inline-block;
+    }
+    .full-text {
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .row-mobile-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .row-mobile-2 {
+        font-size: 40px;
+        font: Lato Regular;
+        margin-bottom: 10px;
+        color: #454F63;
+    }
+    .mobile-icon img {
+        width: 25px;
+    }
+    .left-arrow-button {
+        display: flex;
+    }
+    .dashboard {
+        background-color: #F7F7FA;
+    }
+    .dashboard-item-2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .employees-17 {
+        margin: 20px 0px 10px 0px;
+        border: none;
+    }
+    .skills-salary {
+        margin-right: 0px;
+        background-color: #F7F7FA;
+    }
+    .skills, .salary {
+        margin: 0px;
+        padding: 10px;
+    }
+    .skills {
+        border: none;
+    }
+    .salary {
+        margin-top: 30px;
+        border: none;
+    }
+    .row-employees-skills {
+        display: none;
+    }
+    .mobile-row-employees-skills {
+        display: flex;
+        flex-direction: row;
+    }
+    #today-week-month {
+        border: 1px solid #F7F7FA;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

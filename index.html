@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!---tells phones not to lie about their width-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!---font Google Lato -->
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style-dashboard.css">
+    <link rel="stylesheet" type="text/css" href="public/css/media-query.css">
+
+
+    <title>TURN PROTOTYPE INTO LIVE WEB APP</title>
+</head>
+
+<body>
+    <div class="base-container">
+        <nav>
+            <img src="public/img/logo.svg" />
+            <ul>
+                <li>
+                    <a href="#" class="nav-button nav-button-selected">
+                        <img src="public/img/outline-dashboard-24px.svg" />
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-button">
+                        <img src="public/img/outline-people-24px.svg" />
+                        <span>Customer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-button">
+                        <img src="public/img/baseline-calendar_today-24px.svg" />
+                        <span>Schedules</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-button">
+                        <img src="public/img/baseline-bar_chart-24px.svg" />
+                        <span>Analytics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-button">
+                        <img src="public/img/baseline-live_help-24px.svg" />
+                        <span>Help</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="feedback-button">Feedback</a>
+
+        </nav>
+        <main>
+
+            <header>
+                <div class="header-mobile">
+                    <div class="row-mobile-1">
+                        <a href="#" class="left-arrow-button">
+                            <img src="public/img/arrow_left-24px.svg" />
+                        </a>
+                        <a href="#" class="mobile-icon">
+                            <img src="public/img/mobile_icon.jpg" />
+                        </a>
+                    </div>
+                    <div class="row-mobile-2">
+                        <span>Employees</span>
+                    </div>
+                </div>
+                <div class="header-desktop">
+                    <a href="#" class="left-arrow-button">
+                        <img src="public/img/arrow_left-24px.svg" />
+                    </a>
+                    <div class="right-header-button">
+                        <ul>
+                            <li>
+                                <a href="#" class="scraton-button">
+                                    <span class="full-text">Scraton, PA</span>
+                                    <span class="short-text"><b>Employees</b></span>
+                                    <img src="public/img/arrow_left-24px.svg" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#" class="header-button">
+                                    <img src="public/img/baseline-message-24px.svg" />
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-button">
+                                    <img src="public/img/outline-search-24px.svg" />
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-button">
+                                    <img src="public/img/baseline-notification_important-24px.svg" />
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-button">
+                                    <img src="public/img/circle.svg" />
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <article class="dashboard">
+                <section class="dashboard dashboard-item-1">
+                    <span>Dashboard</span>
+                    <a href="#" class="create-order-button">Create Order +</a>
+                </section>
+                <section class="dashboard dashboard-item-2">
+                    <div class="employees-17">
+                        <div class="row-employees-17">
+                            <span><b>Employees (17)</b></span>
+                            <div class="add-new-button">
+                                <a href="#" class="add-new">Add New +</a>
+                                <a href="#" class="icon-settings"><img src="public/img/baseline-settings-20px.svg"></a>
+                            </div>
+                        </div>
+                        <div class="employees-manage">
+                            <span>Delete</span>
+                            <span>Print</span>
+                            <span>Export</span>
+                            <span>Make Manager</span>
+                        </div>
+                        <div class="filter">
+                            <div class="col-name">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb1">
+                                    <label for="cb1"></label>
+                                </div>
+                                <span>Name</span>
+                                <img src="public/img/baseline-arrow_downward-24px.svg" />
+                            </div>
+                            <div class="col-email">
+                                <span>Email</span>
+                                <img src="public/img/baseline-arrow_downward-24px.svg" />
+                            </div>
+                            <div class="col-title">
+                                <span>Title</span>
+                                <img src="public/img/baseline-arrow_downward-24px.svg" />
+                            </div>
+                            <div class="col-date">
+                                <span>Date Modified</span>
+                                <img src="public/img/baseline-arrow_downward-24px.svg" />
+                            </div>
+                            <div class="col-dundies">
+                                <span>Dundies</span>
+                                <img src="public/img/baseline-arrow_downward-24px.svg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb2">
+                                    <label for="cb2"></label>
+                                </div>
+                                <img src="public/img/scott.png" />
+                                <span>Michael Scott</span>
+                            </div>
+                            <div class="col-email">
+                                <span>marshall@yahoo.com</span>
+                            </div>
+                            <div class="col-title col-title-regional-manager">
+                                <span>Regional Manager</span>
+                            </div>
+                            <div class="col-date">
+                                <span>07/04/1927</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>16</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb3">
+                                    <label for="cb3"></label>
+                                </div>
+                                <img src="public/img/schrute.png" />
+                                <span>Dwight Schrute</span>
+                            </div>
+                            <div class="col-email">
+                                <span>dwight@yahoo.com</span>
+                            </div>
+                            <div class="col-title col-title-assistant-regional-manager">
+                                <span>Assistant to the Regional Manager</span>
+                            </div>
+                            <div class="col-date">
+                                <span>05/12/1983</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>15</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb4">
+                                    <label for="cb4"></label>
+                                </div>
+                                <img src="public/img/halpert.png" />
+                                <span>Jim Halpert</span>
+                            </div>
+                            <div class="col-email">
+                                <span>miles@mail.com</span>
+                            </div>
+                            <div class="col-title col-title-salesman">
+                                <span>Salesman</span>
+                            </div>
+                            <div class="col-date">
+                                <span>08/08/1921</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>11</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb5">
+                                    <label for="cb5"></label>
+                                </div>
+                                <img src="public/img/beesly.png" />
+                                <span>Pam Beesly</span>
+                            </div>
+                            <div class="col-email">
+                                <span>barber@gmail.com</span>
+                            </div>
+                            <div class="col-title col-title-office-administrator">
+                                <span>Office Administrator</span>
+                            </div>
+                            <div class="col-date">
+                                <span>26/08/1949</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>11</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb6">
+                                    <label for="cb6"></label>
+                                </div>
+                                <img src="public/img/hudson.png" />
+                                <span>Stanley Hudson</span>
+                            </div>
+                            <div class="col-email">
+                                <span>gamble@outlook.com</span>
+                            </div>
+                            <div class="col-title col-title-salesman">
+                                <span>Salesman</span>
+                            </div>
+                            <div class="col-date">
+                                <span>19/10/1992</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>16</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb7">
+                                    <label for="cb7"></label>
+                                </div>
+                                <img src="public/img/malone.png" />
+                                <span>Kevin Malone</span>
+                            </div>
+                            <div class="col-email">
+                                <span>castaneda@mail.com</span>
+                            </div>
+                            <div class="col-title col-title-salesman">
+                                <span>Salesman</span>
+                            </div>
+                            <div class="col-date">
+                                <span>01/02/1952</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>16</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb8">
+                                    <label for="cb8"></label>
+                                </div>
+                                <img src="public/img/martin.png" />
+                                <span>Angela Martin</span>
+                            </div>
+                            <div class="col-email">
+                                <span>ryan@mail.com</span>
+                            </div>
+                            <div class="col-title col-title-accountant">
+                                <span>Accountant</span>
+                            </div>
+                            <div class="col-date">
+                                <span>05/12/1997</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>14</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb9">
+                                    <label for="cb9"></label>
+                                </div>
+                                <img src="public/img/vance.png" />
+                                <span>Phyllis Vance</span>
+                            </div>
+                            <div class="col-email">
+                                <span>hendricks@yahoo.com</span>
+                            </div>
+                            <div class="col-title col-title-salesman">
+                                <span>Salesman</span>
+                            </div>
+                            <div class="col-date">
+                                <span>25/12/2012</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>16</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+                        <div class="row-employee">
+                            <div class="name-employee">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="cb10">
+                                    <label for="cb10"></label>
+                                </div>
+                                <img src="public/img/palmer.png" />
+                                <span>Meredith Palmer</span>
+                            </div>
+                            <div class="col-email">
+                                <span>kelly@mail.com</span>
+                            </div>
+                            <div class="col-title col-title-supplier-relations">
+                                <span>Supplier Relations</span>
+                            </div>
+                            <div class="col-date">
+                                <span>17/09/1971</span>
+                            </div>
+                            <div class="col-dundies">
+                                <span>13</span>
+                            </div>
+                            <div class="col-dotted-button">
+                                <span></span>
+                                <img src="public/img/dotted_button.jpg" />
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <aside class="skills-salary">
+                        <div class="skills">
+                            <div class="row-employees-skills">
+                                <span><b>Employees skills</b></span>
+                                <div class="date-and-settings">
+                                    <a href="#" class="add-new">Today<img
+                                            src="public/img/baseline-keyboard_arrow_down-24px.svg">
+                                    </a>
+                                    <a href="#" class="icon-settings"><img
+                                            src="public/img/baseline-settings-20px.svg"></a>
+                                </div>
+                            </div>
+                            <div class="mobile-row-employees-skills">
+                                <div id="today-week-month">TODAY</div>
+                                <div id="today-week-month">WEEK</div>
+                                <div id="today-week-month">MONTH</div>
+                            </div>
+                            <div class="progress">
+                                <div id="percent-java">234</div>
+                            </div>
+                            <div class="progress">
+                                <div id="percent-php">348</div>
+                            </div>
+                            <div class="progress">
+                                <div id="percent-c">233</div>
+                            </div>
+                            <div class="progress">
+                                <div id="percent-python">225</div>
+                            </div>
+
+                            <div class="dot">
+                                <div>
+                                    <span class="dot-java"></span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div>
+                                    <span class="dot-php"></span>
+                                    <span>PHP</span>
+                                </div>
+                                <div>
+                                    <span class="dot-c"></span>
+                                    <span>C#</span>
+                                </div>
+                                <div>
+                                    <span class="dot-python"></span>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="salary">
+                            <div class="average-salary">
+                                <span><b>Average salary</b></span>
+                                <div class="date-and-settings">
+                                    <a href="#" class="add-new">June 2020<img
+                                            src="public/img/baseline-keyboard_arrow_down-24px.svg"></a>
+                                    <a href="#" class="icon-settings"><img
+                                            src="public/img/baseline-settings-20px.svg"></a>
+                                </div>
+                            </div>
+                            <div class="appearance">
+                                <span>Last update: 12nd July 2020 at 12:45 am</span>
+                            </div>
+                            <div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">JavaScript</span>
+                                    <span>$2500,00</span>
+                                    <div class="green-percent">
+                                        <span>+7%</span>
+                                    </div>
+                                    <img id="green-arrow" src="public/img/green-arrow.svg">
+                                </div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">Java</span>
+                                    <span>$2300,00</span>
+                                    <div class="green-percent">
+                                        <span>+1%</span>
+                                    </div>
+                                    <img id="green-arrow" src="public/img/green-arrow.svg">
+                                </div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">PHP</span>
+                                    <span>$2000,00</span>
+                                    <div class="green-percent">
+                                        <span>+2%</span>
+                                    </div>
+                                    <img id="green-arrow" src="public/img/green-arrow.svg">
+                                </div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">PHP</span>
+                                    <span>$2000,00</span>
+                                    <div class="red-percent">
+                                        <span>+2%</span>
+                                    </div>
+                                    <img id="red-arrow" src="public/img/red-arrow.svg">
+                                </div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">Python</span>
+                                    <span>$2020,00</span>
+                                    <div class="red-percent">
+                                        <span>-3%</span>
+                                    </div>
+                                    <img id="red-arrow" src="public/img/red-arrow.svg">
+                                </div>
+                                <div class="row-program-knowledge-salary">
+                                    <span id="program-name">C#</span>
+                                    <span>$2010,00</span>
+                                    <div class="red-percent">
+                                        <span>-9%</span>
+                                    </div>
+                                    <img id="red-arrow" src="public/img/red-arrow.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </section>
+            </article>
+
+            <footer>
+                <ul>
+                    <li>
+                        <a href="#" class="footer-button">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-button">
+                            <spac>Customer Support</spac>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-button">
+                            <span>Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-button">
+                            <span>Dealer Extranet</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-button">
+                            <span>DunderMiffin.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+
+        </main>
+    </div>
+</body>
+
+</html>
